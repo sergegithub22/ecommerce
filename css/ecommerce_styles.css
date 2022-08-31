@@ -49,6 +49,19 @@ address {
 button {
 	cursor: pointer;
 }
+/* a11y ===============================*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .item {
 	text-decoration: none;
 }
@@ -180,7 +193,7 @@ button {
 }
 /* Header =============================== */
 .logo {
-	background-color: #2485B8;
+	background-color: #F6BD32;
 }
 .main_logo {
 	font-size: 30px;
@@ -1326,4 +1339,103 @@ footer {
 }
 .credits a:hover {
 	color: yellow;
+}
+/* modal ===============================*/
+.modal_window {
+	display: none;
+	border: 0;
+	position: fixed;
+	left: 0;
+  top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+  z-index: 1250;
+}
+.modal_form {
+	width: 300px;
+	margin: auto;
+	margin-top: 50px;
+	background-color: #2385b8;
+}
+.modal_form label {
+  font-size: 12px;
+}
+.modal_window_show {
+	display: block;
+}
+.modal_form h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: white;
+	text-align: center;
+}
+.modal_window form {
+	/* height: 260px; */
+	width: 260px;
+	padding: 0px 20px 20px 20px; 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  color: white;
+	
+}
+.modal_window form input,
+.modal_window form texarea {
+  border: none;
+  margin-top: 5px;
+	padding: 5px;
+	margin-bottom: 10px;
+  color: black;
+  background-color: #B3E4FF;
+}
+.modal_window form button {
+  border: 0;
+	padding: 10px;
+  margin-top: 15px;
+	text-align: center;
+	background-color: #F6BD32;
+	font-size: 14.9px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #484f5b;
+	
+}
+.modal_window form button:hover {
+	background-color: #f7c23b;
+  color: white;
+}
+.signin_links {
+	margin-top: 25px;
+	font-size: 12.9px;
+}
+.signin_links a {
+	color: white;
+  text-decoration: none;
+}
+.signin_links a:hover {
+	color: white;
+  text-decoration: underline;
+}
+.modal_close {
+	display: block;
+	border: none;
+	padding: 0px;
+	width: 0px;
+	margin: auto;
+	margin-right: 13%;
+	padding-top: 3px;
+	font-size: 13px;
+	color: white;
+	cursor: pointer;
+}
+.modal_close:hover {
+	color: Red;
+	
+}
+.modal_close:hover, 
+.modal_close:focus{
+	cursor: pointer;
+	outline: none;
 }
