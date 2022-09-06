@@ -677,12 +677,12 @@ button {
 	color: white;
 }
 .main_menus_block .ddsmoothmenu ul li a.selected { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
-	background: #2485B8 ;
+	background-color: #2485B8 ;
 	color: #F6BD32;
 }
 .main_menus_block .ddsmoothmenu ul li a:hover{
 	background: #2485B8; /*background of menu items during onmouseover (hover state)*/
-	color: F6BD32;
+	color: #F6BD32;
 }
 	
 /* sub menus */
@@ -694,12 +694,12 @@ button {
 	text-transform: none;
 }
 .main_menus_block .ddsmoothmenu ul li ul li a:hover {
-	background: #18587A; /*background of menu items during onmouseover (hover state)*/
+	background: #0d2f40; /*background of menu items during onmouseover (hover state)*/
 	color: white;
 }
-.main_menus_block .ddsmoothmenu ul li ul li a:selected; {
-	background: #18587A !important; /*background of menu items during onmouseover (hover state)*/
-	color: white;
+.main_menus_block .ddsmoothmenu ul li ul li a.selected {
+	background-color: #0d2f40 ; /*background of menu items during onmouseover (hover state)*/
+	color: #F6BD32;
 }
 
 /*Sub level menu list items (alters style from Top level List Items)*/
@@ -720,6 +720,7 @@ button {
 	width: 160px; /*width of sub menus*/
 	padding: 5px;
 	margin: 0;
+  background-color: #195e80;
 	border-top-width: 0;
 	border-bottom: 1px solid black;
 }
@@ -1065,6 +1066,7 @@ main {
 	background-color: #fff;
 }
 /* Carusel electronics =============================== */
+/*
 .sale_carusel_electronics {
 	display: flex;
 	justify-content: space-between;
@@ -1087,8 +1089,9 @@ main {
 	left: 100px;
 	bottom: 330px;
 }
+*/
 /* Carusel clothes =============================== */
-.clothes_slider {
+.product_slider {
 	display: flex;
 	width: 100%;
 	height: 439px;
@@ -1100,7 +1103,7 @@ main {
 	width: 296px;
 	height: 418px;
 }
-.sale_carusel_clothes {
+.product_carousel {
 	display: flex;
 	justify-content: space-between;
 	/* margin-left: auto; */
@@ -1108,13 +1111,13 @@ main {
 	width: 924px;
 	
 }
-.clothes {
+.carousel {
 	justify-content: flex-end;
 	height: 417px;
 	padding-bottom: 20px;
 	border: 1px solid white;
 }
-.clothes:hover {
+.carousel:hover {
 	border: 1px solid #ccc;
 }
 
@@ -1357,7 +1360,7 @@ footer {
 	width: 300px;
 	margin: auto;
 	margin-top: 50px;
-	background-color: #2385b8;
+	background-color: #1d6b96;
 }
 .modal_form label {
   font-size: 12px;
@@ -1379,7 +1382,6 @@ footer {
 	flex-direction: column;
 	justify-content: space-between;
   color: white;
-	
 }
 .modal_window form input,
 .modal_window form texarea {
@@ -1395,16 +1397,20 @@ footer {
 	padding: 10px;
   margin-top: 15px;
 	text-align: center;
-	background-color: #F6BD32;
+	background-color: #DB9C00;
 	font-size: 14.9px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #484f5b;
+	color: black;
+  transition-property: background;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
 	
 }
 .modal_window form button:hover {
-	background-color: #f7c23b;
-  color: white;
+	background-color: #f6ba23;
+  color: black;
+  text-decoration: underline;
 }
 .signin_links {
 	margin-top: 25px;
@@ -1415,7 +1421,7 @@ footer {
   text-decoration: none;
 }
 .signin_links a:hover {
-	color: white;
+	color: #f8c954;
   text-decoration: underline;
 }
 .modal_close {
@@ -1424,8 +1430,8 @@ footer {
 	padding: 0px;
 	width: 0px;
 	margin: auto;
-	margin-right: 13%;
-	padding-top: 3px;
+	margin-right: 14%;
+	padding-top: 5px;
 	font-size: 13px;
 	color: white;
 	cursor: pointer;
