@@ -12,8 +12,6 @@
   font-family: 'Gotham';
   font-style: normal;
   src: url('../assets/fonts/GothamMedium.ttf'); 
-	 
-  
 }
 /*common styles ===============================*/
 body {
@@ -146,8 +144,7 @@ button {
 	font-weight: 100;
 	text-transform: uppercase;
 	letter-spacing: 0.01em;
-	color: #484f5b;
-		
+	color: #484f5b;	
 }
 .small_product_card_cart_add:hover {
 		background-color: #F6BD32;
@@ -293,15 +290,12 @@ button {
 .account_menu li {
 	position: relative;
 }
-
 .account_menu span {
 	font-size: 11px;
 }
 .account_menu li:last-child a {
 	border: none;
 }
-
-
 /* Account menu =============================== */
 .account_menu .ddsmoothmenu{
 	font-family: 'Roboto';
@@ -321,14 +315,12 @@ button {
 	padding: 0;
 	list-style-type: none;	
 }
-
 /*Top level list items*/
 .account_menu .ddsmoothmenu ul li{
 	position: relative;
 	display: inline;
 	padding: 0px;
 }
-
 /*Top level menu link items style*/
 .account_menu .ddsmoothmenu ul li a{
 	display: block;
@@ -340,7 +332,6 @@ button {
 	border-right: none;
 	text-decoration: none;
 }
-
 * html .account_menu .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
 	display: inline-block;
 }
@@ -355,7 +346,6 @@ button {
 	background: #2485B8; /*background of menu items during onmouseover (hover state)*/
 	color: F6BD32;
 }
-	
 /* sub menus */
 .account_menu .ddsmoothmenu ul li ul{
 	position: absolute;
@@ -370,12 +360,10 @@ button {
 	float: none;
 	text-transform: none;
 }
-
 /*All subsequent sub menu levels vertical offset after 1st level sub menu */
 .account_menu .ddsmoothmenu ul li ul li ul{
 	top: 0;
 }
-
 /* Sub level menu links style */
 .account_menu .ddsmoothmenu ul li ul li a{
 	font: normal 13px Roboto;
@@ -396,17 +384,13 @@ button {
 	box-shadow: 0 0px 5px #154d6a;
 	text-decoration: underline;
 }
-.account_menu .ddsmoothmenu ul li ul li a:selected; {
-	background: blue !important; /*background of menu items during onmouseover (hover state)*/
+.account_menu .ddsmoothmenu ul li ul li a.selected {
+	background-color: blue !important; /*background of menu items during onmouseover (hover state)*/
 	color: white;
 }
-
 /* Holly Hack for IE \*/
 * html .account_menu .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
-
-
 /* ######### CSS classes applied to down and right arrow images  ######### */
-
 .account_menu .downarrowclass{
 	position: absolute;
 	top: 4px;
@@ -420,9 +404,7 @@ button {
 .account_menu .leftarrowclass{
 	margin-right: 5px;
 }
-
 /* ######### CSS for shadow added to sub menus  ######### */
-
 .account_menu .ddshadow{ 
 	position: absolute;
 	left: 0;
@@ -431,12 +413,10 @@ button {
 	height: 0;
 	background-color: #ccc; /* generally should be just a little lighter than the box-shadow color for CSS3 capable browsers */
 }
-
 .account_menu .toplevelshadow{
 	margin: 5px 0 0 5px; /* in NON CSS3 capable browsers gives the offset of the shadow */
 	opacity: 0.8; /* shadow opacity mostly for NON CSS3 capable browsers. Doesn't work in IE */
 }
-
 .account_menu .ddcss3support .ddshadow.toplevelshadow {
  margin: 0; /* in CSS3 capable browsers overrides offset from NON CSS3 capable browsers, allowing the box-shadow values in the next selector to govern that */
 /* opacity: 1; */ /* optionally uncomment this to remove partial opacity for browsers supporting a box-shadow property which has its own slight gradient opacity */
@@ -447,7 +427,6 @@ button {
 	-moz-box-shadow: 5px 5px 5px #aaa;
 	-webkit-box-shadow: 5px 5px 5px #aaa;
 }
-
 .wish_link::before {
 	content: url("../assets/images/header/heart_header.png");
 	position: absolute;
@@ -469,7 +448,6 @@ button {
 .log_link::before {
 	content: url("../assets/images/header/login.png");
 	position: absolute;
-	
 	left: -22px;
 }
 .log_link:hover::before {
@@ -589,7 +567,6 @@ button {
 }
 .simbols_all_categories {
 	transform: rotate(90deg);
-  
 }
 .menu_new {
 	position: absolute;
@@ -652,15 +629,14 @@ button {
 	text-transform: uppercase;
 	font: normal 15px Verdana;
 }
-
 /*Top level list items*/
+.main_menus_block .ddsmoothmenu .main_menu_active {
+  color: #F6BD32;
+}
 .main_menus_block .ddsmoothmenu ul li{
 	position: relative;
 	display: inline;
-
-/* float: left; */
 }
-
 /*Top level menu link items style*/
 .main_menus_block .ddsmoothmenu ul li a{
 	display: block;
@@ -673,9 +649,12 @@ button {
 * html .main_menus_block .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
 	display: inline-block;
 }
+/* peace of code below was commented couse it was blocked style for -main_menu_active- class, but u can turn on it if u need*/
+/*
 .main_menus_block .ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited{
 	color: white;
 }
+*/
 .main_menus_block .ddsmoothmenu ul li a.selected { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
 	background-color: #2485B8 ;
 	color: #F6BD32;
@@ -683,8 +662,7 @@ button {
 .main_menus_block .ddsmoothmenu ul li a:hover{
 	background: #2485B8; /*background of menu items during onmouseover (hover state)*/
 	color: #F6BD32;
-}
-	
+}	
 /* sub menus */
 .main_menus_block .ddsmoothmenu ul li ul{
 	position: absolute;
@@ -701,19 +679,16 @@ button {
 	background-color: #0d2f40 ; /*background of menu items during onmouseover (hover state)*/
 	color: #F6BD32;
 }
-
 /*Sub level menu list items (alters style from Top level List Items)*/
 .main_menus_block .ddsmoothmenu ul li ul li{
 	display: list-item;
 	float: none;
 	text-transform: none;
 }
-
 /*All subsequent sub menu levels vertical offset after 1st level sub menu */
 .main_menus_block .ddsmoothmenu ul li ul li ul{
 	top: 0;
 }
-
 /* Sub level menu links style */
 .main_menus_block .ddsmoothmenu ul li ul li a{
 	font: normal 13px Verdana;
@@ -724,31 +699,23 @@ button {
 	border-top-width: 0;
 	border-bottom: 1px solid black;
 }
-
 /* Holly Hack for IE \*/
 * html .main_menus_block .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
-
-
 /* ######### CSS classes applied to down and right arrow images  ######### */
-
 .main_menus_block .downarrowclass{
 	position: absolute;
 	top: 12px;
 	right: 7px;
 }
-
 .main_menus_block .rightarrowclass{
 	position: absolute;
 	top: 6px;
 	right: 5px;
 }
-
 .main_menus_block .leftarrowclass{
 	margin-right: 5px;
 }
-
 /* ######### CSS for shadow added to sub menus  ######### */
-
 .main_menus_block .ddshadow{ 
 	position: absolute;
 	left: 0;
@@ -770,9 +737,6 @@ button {
 	box-shadow: 5px 5px 5px #aaa; /* box-shadow color generally should be a little darker than that for the NON CSS3 capable browsers background-color */
 	-moz-box-shadow: 5px 5px 5px #aaa;
 	-webkit-box-shadow: 5px 5px 5px #aaa;
-}
-.banner img {
-	width: 100%;
 }
 /* Home page header ===============================*/
 .go_quickly {
@@ -809,6 +773,9 @@ button {
 /* Banner =============================== */
 .banner {
 	width: 100%;	
+}
+.banner img {
+	width: 100%;
 }
 .banner .slick-prev,
 .banner .slick-next {
@@ -1065,32 +1032,7 @@ main {
 	text-align: center;
 	background-color: #fff;
 }
-/* Carusel electronics =============================== */
-/*
-.sale_carusel_electronics {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	margin-top: 40px;
-	background-color: #ffffff;
-	box-shadow: 2px 4px 19px 0px rgba(157,157,157,0.37);
-}
-.electronics {
-	height: 417px;
-	justify-content: flex-end;
-	padding-bottom: 20px;
-	border: 1px solid white;
-}
-.electronics:hover {
-	border: 1px solid #ccc;
-}
-.new {
-	position: absolute;
-	left: 100px;
-	bottom: 330px;
-}
-*/
-/* Carusel clothes =============================== */
+/* Carusel products =============================== */
 .product_slider {
 	display: flex;
 	width: 100%;
@@ -1106,10 +1048,7 @@ main {
 .product_carousel {
 	display: flex;
 	justify-content: space-between;
-	/* margin-left: auto; */
-	/* margin-right: auto; */
 	width: 924px;
-	
 }
 .carousel {
 	justify-content: flex-end;
@@ -1120,7 +1059,6 @@ main {
 .carousel:hover {
 	border: 1px solid #ccc;
 }
-
 /* Two items boxes  =============================== */
 .two_items_boxes {
 	display: flex;
@@ -1128,7 +1066,6 @@ main {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-
 /* Two fotos box  =============================== */
 .two_foto_box {
 	display: flex;
@@ -1314,7 +1251,6 @@ footer {
 	flex-wrap: wrap;
 	justify-content: center;
 	list-style: none;
-	
 }
 .products_links_items a {
 	text-decoration: none;
@@ -1405,7 +1341,6 @@ footer {
   transition-property: background;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
-	
 }
 .modal_window form button:hover {
 	background-color: #f6ba23;
@@ -1438,7 +1373,6 @@ footer {
 }
 .modal_close:hover {
 	color: Red;
-	
 }
 .modal_close:hover, 
 .modal_close:focus{
