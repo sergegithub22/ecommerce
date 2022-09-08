@@ -27,7 +27,7 @@ ul {
 hr {
 	box-sizing: border-box;
 	padding: 0px;
-	margin-top: 10px;
+  margin: 0px;
 	width: 100%;
 	border-color: #5BB1DF;
 }
@@ -190,25 +190,19 @@ button {
 }
 /* Header =============================== */
 .logo {
-	background-color: #F6BD32;
+  padding-top: 10px;
+  color: white;
+	background-color: #2485B8;
 }
 .main_logo {
 	font-size: 30px;
 }
-.logo h1 {
-	margin: 0px;
-	margin-left: 80px;
-	padding-top: 10px;
-	padding-bottom: 0px;
-	line-height: 13px;
-}	
 .logo h4 {
-	margin: 0px;
-	margin-left: 100px;
-	padding-top: 0px;
-	padding-bottom: 5px;
-	font-size: 12px
+  font-size: 12px
 }	
+h4.slogan {
+  font-size: 17px;
+}
 .main_header {
 	background-color: #2485B8;
 }
@@ -216,6 +210,7 @@ button {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 10px;
+  padding-bottom: 10px;
 	max-width: 1220px;
 	margin-left: auto;
 	margin-right: auto;
@@ -1378,4 +1373,13 @@ footer {
 .modal_close:focus{
 	cursor: pointer;
 	outline: none;
+}
+.logo_content {
+  max-width: 1220px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+	margin-right: auto;
+  padding-bottom: 20px;
 }
