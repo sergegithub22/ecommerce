@@ -189,39 +189,6 @@ button {
 	margin-left: 10px;
 }
 /* Header =============================== */
-/*
-.logo {
-  padding-top: 10px;
-  color: white;
-	background-color: #2485B8;
-}
-.logo_content {
-  max-width: 1220px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: auto;
-	margin-right: auto;
-  padding-bottom: 20px;
-}.logo_content {
-  max-width: 1220px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: auto;
-	margin-right: auto;
-  padding-bottom: 20px;
-}
-.main_logo {
-	font-size: 30px;
-}
-.logo h4 {
-  font-size: 12px
-}	
-h4.slogan {
-  font-size: 17px;
-}
-*/
 .main_header {
 	background-color: #2485B8;
 }
