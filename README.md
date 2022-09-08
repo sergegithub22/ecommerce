@@ -1,2 +1,2 @@
 # ecommerce
- Web-cite layout. HTML, CSS, JS
+ Web-site layout. HTML, CSS, JS
