@@ -192,7 +192,7 @@ button {
 .logo {
   padding-top: 10px;
   color: white;
-	background-color: #2485B8;
+	background-color: #1d6b95;
 }
 .main_logo {
 	font-size: 30px;
@@ -1375,11 +1375,15 @@ footer {
 	outline: none;
 }
 .logo_content {
-  max-width: 1220px;
+  width: 96%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-left: auto;
 	margin-right: auto;
   padding-bottom: 20px;
+}
+
+h4.logo_center_text {
+  font-size: 18px;
 }
