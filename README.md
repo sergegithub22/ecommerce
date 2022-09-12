@@ -1,2 +1,2 @@
 # ecommerce
- Web-site layout. HTML, CSS, JS
+ Web-site HTML template. HTML, CSS, JS
