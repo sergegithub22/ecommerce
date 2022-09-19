@@ -1248,11 +1248,18 @@ footer {
 	color: white;
 }
 .credits {
+  display: flex 1 0 0;
+  justify-content: center;
+  align-items: center;
 	width: 20%;
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 12px;
+}
+.credits span {
+  display: flex;
+  justify-content: center;
 }
 .credits a {
 	color: white;

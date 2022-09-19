@@ -1,15 +1,13 @@
 # E-commerce Home Page. Web-site HTML template.
 ### Description:
-One page site HTML template. 
+One page site HTML template.\ 
+Layout bilded on flex
 ### Used:
  - HTML
  - CSS
- - JS plugins:
-   - 3 menus
-   - 4 sliders
-	 - 1 signin popup
-   - Button up
- - Flex
- - 2 some free fonts
- 
+ - JS
+### Third party assets: (thanks to all who made it :pray:)
+ - Design
+ - JS plugins: all, besides login popup
+ - Free fonts
  > All credits in their files.
