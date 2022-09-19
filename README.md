@@ -1,5 +1,4 @@
 # E-commerce Home Page.
-### Description:
 One page site HTML template.\
 Layout bilded on flex
 ### Used:
@@ -8,6 +7,6 @@ Layout bilded on flex
  - JS
 ### Third party assets: (thanks to all who made it :pray:)
  - Design
- - JS plugins: all, besides login popup
+ - JS (besides signin.js)
  - Free fonts
  > All credits in their files.
