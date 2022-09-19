@@ -1,4 +1,4 @@
-# E-commerce Home Page. Web-site HTML template.
+# E-commerce Home Page.
 ### Description:
 One page site HTML template.\
 Layout bilded on flex
