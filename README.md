@@ -1,6 +1,6 @@
 # E-commerce Home Page.
 One page site HTML template.\
-Layout bilded on flex
+Layout built on flex
 ### Used:
  - HTML
  - CSS
