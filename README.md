@@ -7,6 +7,6 @@ Layout built on flex
  - JS
 ### Third party assets: (thanks to all who made it :pray:)
  - Design
- - JS (besides signin.js)
+ - JS (except signin.js)
  - Free fonts
  > All credits in their files.
